@@ -1,0 +1,7 @@
+---
+- name: executing hello scrip
+  hosts: webserver
+  tasks:
+    - name: do it
+      copy: content="hello world\n" dest=/tmp/testfile.txt
+
