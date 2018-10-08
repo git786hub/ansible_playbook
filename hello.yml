@@ -1,6 +1,6 @@
 ---
 - name: executing hello scrip
-  hosts: 18.223.0.253
+  hosts: 18.219.62.8
   tasks:
     - name: do it 
       copy: content="hello world\n" dest=/tmp/testfile.txt
